@@ -11,9 +11,9 @@ namespace LojaVirtual.Controllers
 
         public IActionResult Contato() => View();
 
-        public IActionResult Cadastro() => View();
-
         public IActionResult Login() => View();
+
+        public IActionResult Cadastro() => View();
 
         public IActionResult Carrinho() => View();
     }
